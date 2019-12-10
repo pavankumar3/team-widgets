@@ -1,0 +1,66 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.team-widget{
+    overflow: hidden;
+    text-align: center;
+    background: ffff;
+    padding: 50px;
+}
+.team-widget h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: sienna;
+    font-size: 60px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 3px;
+    background: crimson;
+    margin-bottom: 40px;
+}
+.teammates{
+    margin-bottom: 30px;
+}
+.teammates a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 25%;
+}
+.teammates a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.teammates a:hover > img{
+    filter: none;
+}
+
+.sec{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    height:0;
+    overflow: hidden;
+}
+.sec:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+} 
